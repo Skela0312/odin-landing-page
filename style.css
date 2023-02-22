@@ -1,0 +1,145 @@
+body {
+    font-family: Roboto;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header {
+    background: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+
+.text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.hero-main {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.hero-main-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 64px;
+    background: #1f2937;
+    padding: 64px;
+    flex: 1;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 32px;
+    margin: 0;
+    padding: 0;
+}
+
+.footer {
+    display: flex;
+    background: #1f2937;
+    color: #f9faf8;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+}
+
+button {
+    background-color: #3882f6;
+    border: 1px solid white;
+    border-radius: 4px;
+    width: 100px;
+    color: #f9faf8;
+    font-weight: bold;
+    padding: 8px 16px;
+    margin-top: 16px;
+    font-size: 18px;
+}
+
+.infopics {
+    width: 200px;
+    height: 200px;
+    border-radius: 25%;
+}
+
+.info-title {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 36px;
+    color: #1f2937;
+    margin: 32px;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    gap: 64px;
+    margin: 0 64px 64px 64px;
+}
+
+.info-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+}
+
+.info-item-text {
+    color: #1f2937;
+    text-align: center;
+}
+
+.quote {
+    background: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1f2937;
+    padding: 64px;
+}
+
+.quote-text {
+    flex: 1 1 400px;
+}
+
+.quote-author {
+    font-weight: bold;
+    text-align: right;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+}
+
+.call {
+    background: #3882f6;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    gap: 64px;
+    margin: 32px;
+    padding: 32px;
+    border-radius: 25%;
+}
